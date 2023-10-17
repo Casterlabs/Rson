@@ -32,7 +32,7 @@ Our very own Json library. (Previously known as Rakurai-Json).
     }
 
     dependencies {
-        implementation 'co.casterlabs.Rakurai:Json:VERSION'
+        implementation 'co.casterlabs:Rson:VERSION'
     }
 ```
 
@@ -85,6 +85,6 @@ System.out.println(
 ```
 
 ### Demos
-[Demo File](https://github.com/Casterlabs/Rakurai/blob/main/Json/JsonDemo.java)  
-[Validation Demo File](https://github.com/Casterlabs/Rakurai/blob/main/Json/JsonValidationDemo.java)  
-[Methods Demo File](https://gith
+[Demo File](https://github.com/Casterlabs/Rson/blob/main/Json/JsonDemo.java)  
+[Validation Demo File](https://github.com/Casterlabs/Rson/blob/main/Json/JsonValidationDemo.java)  
+[Methods Demo File](https://github.com/Casterlabs/Rson/blob/main/Json/JsonMethodDemo.java)  
