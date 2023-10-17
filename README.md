@@ -1,5 +1,6 @@
-# Json 
-Our very own Json library, Rson.
+# Rson
+
+Our very own Json library. (Previously known as Rakurai-Json).
 
 ## Adding to your project
 
@@ -14,8 +15,8 @@ Our very own Json library, Rson.
 
     <dependencies>
         <dependency>
-            <groupId>co.casterlabs.Rakurai</groupId>
-            <artifactId>Json</artifactId>
+            <groupId>co.casterlabs</groupId>
+            <artifactId>Rson</artifactId>
             <version>VERSION</version>
             <scope>compile</scope>
         </dependency>
@@ -86,5 +87,4 @@ System.out.println(
 ### Demos
 [Demo File](https://github.com/Casterlabs/Rakurai/blob/main/Json/JsonDemo.java)  
 [Validation Demo File](https://github.com/Casterlabs/Rakurai/blob/main/Json/JsonValidationDemo.java)  
-[Methods Demo File](https://github.com/Casterlabs/Rakurai/blob/main/Json/JsonMethodDemo.java)  
-  
+[Methods Demo File](https://gith
