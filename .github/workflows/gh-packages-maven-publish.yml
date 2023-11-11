@@ -36,6 +36,6 @@ jobs:
 
       - name: Build and deploy to GitHub Packages
         run: |
-          mvn --batch-mode deploy -DaltDeploymentRepository="github::default::https://maven.pkg.github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}"
+          mvn --batch-mode clean prepare deploy -DaltDeploymentRepository="github::default::https://maven.pkg.github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}"
         env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
