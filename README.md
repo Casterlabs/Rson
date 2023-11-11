@@ -8,16 +8,16 @@ Our very own Json library. (Previously known as Rakurai-Json).
 ```xml
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>casterlabs-maven</id>
+            <url>https://repo.casterlabs.co/maven</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>co.casterlabs</groupId>
-            <artifactId>Rson</artifactId>
-            <version>VERSION</version>
+            <artifactId>rson</artifactId>
+            <version>VERSION_OR_HASH</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -27,12 +27,12 @@ Our very own Json library. (Previously known as Rakurai-Json).
 ```gradle
     allprojects {
         repositories {
-            maven { url 'https://jitpack.io' }
+            maven { url 'https://repo.casterlabs.co/maven' }
         }
     }
 
     dependencies {
-        implementation 'co.casterlabs:Rson:VERSION'
+        implementation 'co.casterlabs:rson:VERSION'
     }
 ```
 
